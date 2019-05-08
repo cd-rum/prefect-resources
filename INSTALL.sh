@@ -1,5 +1,5 @@
 #! /bin/bash
 
-sudo unzip "*.zip" /usr/local/share/fonts
-rm "*.zip"
+mkdir -p ~/.local/share/fonts
+unzip "*.zip" -d ~/.local/share/fonts
 sudo fc-cache -fv
