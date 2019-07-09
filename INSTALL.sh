@@ -1,7 +1,7 @@
 #! /bin/bash
 
-mkdir -p ~/.local/share/fonts
-unzip "*.zip" -d ~/.local/share/fonts
-mkfontdir ~/.local/share/fonts
-mkfontscale ~/.local/share/fonts
+mkdir -p /usr/share/fonts/prefect
+unzip "*.zip" -d /usr/share/fonts/prefect
+mkfontdir /usr/share/fonts/prefect
+mkfontscale /usr/share/fonts/prefect
 sudo fc-cache -fv
